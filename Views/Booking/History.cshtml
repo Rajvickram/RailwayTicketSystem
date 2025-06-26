@@ -1,0 +1,35 @@
+@model IEnumerable<RailwayTicketSystem.Models.Booking>
+@{
+    ViewData["Title"] = "My Bookings";
+}
+
+<h2>My Train Bookings</h2>
+
+@if (!Model.Any())
+{
+    <p>You have not made any bookings yet.</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>From</th>
+                <th>To</th>
+                <th>Date of Journey</th>
+                <th>Seats</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.FromLocation</td>
+                    <td>@booking.ToLocation</td>
+                    <td>@booking.DateOfJourney.ToString("dd-MM-yyyy")</td>
+                    <td>@booking.Seats</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
