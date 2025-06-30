@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Raj Vickram\\RailwayTicketSystem\\wwwroot\\images\\LoginTrain.png",
+      "PackagePath": "staticwebassets\\images\\LoginTrain.png"
+    },
+    {
+      "Id": "C:\\Users\\Raj Vickram\\RailwayTicketSystem\\wwwroot\\images\\TrainStation.jpeg",
+      "PackagePath": "staticwebassets\\images\\TrainStation.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Raj Vickram\\RailwayTicketSystem\\wwwroot\\images\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\images.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Raj Vickram\\RailwayTicketSystem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
